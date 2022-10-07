@@ -7,7 +7,9 @@
 		"simpleserver": "node ../node_modules/yaserver/bin/yaserver --root ./dist --port 9999"
 	},
 	"dependencies": {
+		"@types/event-emitter": "^0.3.3",
 		"@types/lodash": "^4.14.186",
+		"event-emitter": "^0.3.5",
 		"lodash": "^4.17.21"
 	},
 	"devDependencies": {

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { EditorWrapper } from './components/Editor';
 import './userWorker';
+import { EditorWrapper } from "./components/EditorWrapper";
 
 ReactDOM.render(
 	<React.StrictMode>
