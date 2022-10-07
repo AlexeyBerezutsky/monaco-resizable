@@ -1,6 +1,7 @@
 .Editor {
 	min-height: 120px;
 	border: 2px solid crimson;
+
 }
 
 .Parent {
@@ -16,7 +17,6 @@
 }
 
 .Main{
-	height: 200px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;

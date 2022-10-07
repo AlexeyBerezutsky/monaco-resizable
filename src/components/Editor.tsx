@@ -40,16 +40,9 @@ export const Editor = () => {
             })
         }
 
-        const debounced = debounce(resetEditorLayout, 300);
-        window.addEventListener('resize', debounced);
-
         const unsubscribe = subscribe(resetEditorLayout);
 
-        return () => {
-            window.removeEventListener('resize', debounced);
-            unsubscribe();
-        }
-
+        return () => unsubscribe();
     }, [editor, monacoEl.current]);
 
     return <div className={styles.Editor} ref={monacoEl}></div>;
