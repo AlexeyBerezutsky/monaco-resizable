@@ -6,7 +6,7 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "start",
+      "command": "npm run start",
       "runAtStart": true
     }
   }
