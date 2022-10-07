@@ -1,4 +1,10 @@
 .Editor {
-	width: 100vw;
-	height: 100vh;
+	min-height: 100px;
+	border: 2px solid crimson;
+}
+
+.Parent {
+	margin: 20px 100px;
+	padding: 20px;
+	border: 2px solid coral;
 }

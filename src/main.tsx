@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Editor } from './components/Editor';
+import { EditorWrapper } from './components/Editor';
 import './userWorker';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Editor />
+		<EditorWrapper />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
