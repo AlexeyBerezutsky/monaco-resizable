@@ -8,7 +8,7 @@ export const EditorWrapper = () => {
     const [side, setSide] = useState(false);
     const onClickHandler = () => {
         setSide(!side);
-        trigger()
+        trigger();
     }
 
     useEffect(() => {
